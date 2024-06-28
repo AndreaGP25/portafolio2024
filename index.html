@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Andrea Góngora | Portafolio Web</title>
+</head>
+<body>
+    <!----Barra de navegación-->
+    <nav>
+        <h1>Andrea Góngora</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Sección Hero-->
+    <section class="hero" id="about">
+        <img src="images/Freepik _ Create great designs, faster.jpg" alt="women in tech" class="hero-img" loading="lazy">
+        
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About me</h2>
+            <p>Me llamo Andrea Natalia Góngora Paredes, actualmente soy estudiante de Ingeniería de Software y toda mi vida he vivido en Mérida Yucatán. Me gustan las películas, series y estar rodeada de las personas a las que quiero.</p>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>Estudio en la Facultad de Matemáticas UADY</p>
+        <p>Actualmente tengo 21 años</p>
+        <p>Me interesa aprender temas sobre tecnología y programación</p>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-css3.svg" alt="CSS" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img src="images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-github-50.svg" alt="Git" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+
+                </div>
+            </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-cointaner">
+            <div class="project-cointaner project-card">
+                <img src="images/project1.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 1</h3>
+                <p class="project-details">This project is a clone of the Pinterest home interface, created purely with HTML and CSS3</p>
+                <a href="#" target="_blank" class="project-link">Check it out!</a>
+            </div>
+
+            <div class="project-cointaner project-card">
+                <img src="images/interface.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 2</h3>
+                <p class="project-details">This project is an interface from Eclipse using JFrame made for capture the grades of several students</p>
+                <a href="#" target="_blank" class="project-link">Check it out!</a>
+            </div>
+            
+            <div class="project-cointaner project-card">
+                <img src="images/workinprogess.jpeg" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 3</h3>
+                <p class="project-details">Work in Progress...</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Redes sociales-->
+    <div class="socials">
+        <a href="https://wa.me/529993836911" target="_blank"><img src="icons/icons8-whatsapp-50.png" alt="Whatsapp" loading="lazy" class="socicon" ></a>
+        <a href="https://www.instagram.com/andrea.gopa?igsh=OGZ3c3h4NGF1OGV0" target="_blank"><img src="icons/icons8-instagram-50.png" alt="Instagram" loading="lazy" class="socicon"></a>
+        <a href="https://www.facebook.com/andrea.gongora.5011?mibextid=ZbWKwL" target="_blank"><img src="icons/icons8-facebook-nuevo-50.png" alt="Facebook" loading="lazy" class="socicon"></a>
+        <a href="https://github.com/AndreaGP25" target="_blank"><img src="icons/icons8-github-50.png" alt="Github" loading="lazy" class="socicon"></a>
+        
+    </div>
+
+    <!--Scroll buttom-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/flecha.gif" class="socicon up-arrow" alt="scroll up">
+    </i>
+    <!--Footer-->
+    <footer>
+        <p>Built with {💕} by <a href="https://github.com/AndreaGP25" target="_blank">Andrea Góngora</a> 🌟</p>
+    </footer>
+
+    <!--JavaScript link-->
+    <script src="app.js"></script>
+
+
+   <!-- Ion icons scripts -->
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+</body>
+</html>
